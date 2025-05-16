@@ -53,7 +53,8 @@ This project features an interactive Excel dashboard designed to visualize ecomm
 
 ## 📸 Dashboard Preview
 
-![Ecommerce Dashboard](https://github.com/lalithasaipasala/data-analytics-projects/raw/main/excel-projects/project-1-ecommerce-dashboard/Ecommerce%20Dashboard.jpg)
+![Ecommerce Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Ecommerce%20Dashboard.jpg)
+![view Complete Project ](
 
 ---
 
