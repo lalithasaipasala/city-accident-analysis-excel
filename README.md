@@ -134,6 +134,79 @@ Conditional formatting and dashboard layout design
 Electric_Vehicle_Dashboard.xlsx – Main Excel dashboard
 
 
+# ⚡ Electric Vehicle Data Analysis (Excel Dashboard)
+
+This project presents an interactive Excel dashboard analyzing Electric Vehicle (EV) registrations and trends across the U.S. It includes vehicle types, eligibility for clean fuel programs, and electric range statistics. The dashboard is designed to provide meaningful insights to policymakers, researchers, and sustainability analysts.
+
+---
+
+## 📸 Dashboard Preview
+
+![Electric Vehicle Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.jpg)
+
+#### View Project
+![Electric Vehical Project](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.xlsx)
+
+---
+
+## 📂 Files Included
+
+- `ev_data.xlsx` – Source dataset used for visualization and filtering
+- `Electric Vehicle Dashboard.png` – Full screenshot of the interactive Excel dashboard
+- `README.md` – Project documentation
+
+---
+
+## 📊 Dashboard Features
+
+- **Total Vehicles Analyzed**: 114,595  
+- **Total BEV Vehicles**: 87,767 (76.59%)  
+- **Total PHEV Vehicles**: 26,828 (23.41%)
+
+### 📈 Visual Insights
+- **Map Chart**: Distribution of vehicles by U.S. state
+- **Line Graph**: Registration trends by model year (1997–2023)
+- **Bar Charts**:
+  - Top 10 vehicle manufacturers by volume (Tesla, Nissan, Chevrolet, etc.)
+  - Electric range by make (Tesla, Jaguar, Chevrolet, etc.)
+- **Pie Chart**: CAFV (Clean Alternative Fuel Vehicle) eligibility
+- **Slicers**: Filter by fuel eligibility, EV type, and model
+
+---
+
+## 🧰 Tools Used
+
+- Microsoft Excel
+- Pivot Tables & Pivot Charts
+- Geo Map Chart
+- Data Slicers & Timelines
+- Conditional Formatting
+
+---
+
+## 📌 Key Insights
+
+- Tesla is the most popular EV make with over 52,000 vehicles registered.
+- EV adoption has seen exponential growth since 2017, peaking in 2021.
+- Over half of the vehicles are eligible for clean fuel incentives.
+- Tesla, Jaguar, and Chevrolet offer the highest electric range on a full charge.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Excel dashboard design & layout
+- Geographic data mapping
+- KPI tracking & trend analysis
+- Visual storytelling with data
+
+---
+
+
+
+
+
+
 
 
 
