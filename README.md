@@ -84,47 +84,7 @@ This project features an interactive Excel dashboard designed to visualize ecomm
 - Use of Pivot Tables and Slicers
 
 
-# 📊 Chicago Crime Analysis – Excel Dashboard Project
 
-This project presents an in-depth analysis of over **580,000 criminal case records** filed in Chicago, visualized using **Microsoft Excel**. The goal was to uncover patterns in case filings by year, charge types, race demographics, and monthly trends — all using Excel’s built-in tools like PivotTables, charts, and slicers.
-
-## 📌 Project Overview
-
-- ✅ **Total Cases Analyzed**: 585,418
-- 📅 **Time Frame**: 2014 – 2023
-- 🏷️ **Charge Statutes Analyzed**:
-  - Charge 1: 585,418 cases
-  - Charge 2: 247,963 cases
-  - Charge 3: 136,051 cases
-  - Charge 4: 75,410 cases
-
-## 🔍 Key Insights
-
-- **Yearly Trend**: Significant decline in filed cases post-2019.
-- **Race Demographics**: Breakdown shows the highest filings among White individuals, followed by Black individuals.
-- **Top Charges**: 
-  - Issuance of Warrant (81,274)
-  - Drug Possession (43,349)
-  - Driving on Suspended License (31,126)
-- **Monthly Pattern**: Seasonal trends visible using a dynamic line chart.
-- **Interactive Features**:
-  - Slicers for Year and Race
-  - PivotTables for case count breakdown
-  - Fully dynamic Excel dashboard
-
-## 🛠 Tools Used
-
-- Microsoft Excel
-- Pivot Tables & Pivot Charts
-- Slicers for interactivity
-- Data cleaning in Excel
-- Dashboard design techniques
-
-## 📁 Files Included
-
-- `Chicago_Crime_Analysis_Dashboard.xlsx` – The complete interactive Excel dashboard
-- `dataset.csv` – Raw data used for analysis (optional)
-- `README.md` – Project summary and documentation
 
 ## 📊 [Chicago Crime Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Chicago%20Crime%20%20Analysis.jpg)
 
