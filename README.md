@@ -100,8 +100,8 @@ Feel free to explore, replicate, and build upon this dashboard for your own data
 🚗 Electric Vehicle Data Analysis – Excel Dashboard
 Analyze over 114,000 electric vehicle records to uncover trends in electric vehicle (EV) adoption, range, and manufacturer distribution across the U.S. This interactive Excel dashboard provides dynamic insights into vehicle types, clean fuel eligibility, and make/model breakdowns using PivotTables, slicers, and visualizations.
 
-🔗 [View Project Repository](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.jpg)
-📥 [Download Excel Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/commit/db606dc8fea9ac6fe7c08bab4a1743a0753ec8ae)
+🔗 #View Project[View Project Repository](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.jpg)
+📥 Download Complete Project File [Download Excel Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/commit/db606dc8fea9ac6fe7c08bab4a1743a0753ec8ae)
 
 🧾 Dashboard Highlights
 Total Vehicles Analyzed: 114,595
