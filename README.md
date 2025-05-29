@@ -204,6 +204,55 @@ This project presents an interactive Excel dashboard analyzing Electric Vehicle 
 
 
 
+# 📊 Customer Churn Prediction in Telecom
+
+This project applies **binary classification** using the **Random Forest algorithm** to predict customer churn in the telecom industry. It compares traditional **Scikit-learn** and distributed **PySpark MLlib** implementations for model performance and scalability.
+
+---
+
+## 📌 Dataset
+
+- **Source:** Synthetic telecom customer dataset
+- **Records:** 100,000
+- **Features:** 100 (demographics, service usage, billing, contract details, etc.)
+
+---
+
+## ⚙️ Preprocessing
+
+- Handled missing values using median and mode.
+- Dropped irrelevant columns (IDs, unnamed columns).
+- Categorical encoding using:
+  - One-Hot Encoding (Scikit-learn)
+  - StringIndexer & OneHotEncoder (PySpark)
+
+---
+
+## 🚀 Models Used
+
+### 1. **Scikit-learn Random Forest (non-distributed)**
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+print("Accuracy:", accuracy_score(y_test, y_pred))
+
+✅ Accuracy: 0.5881
+
+🔄 Scalable for large datasets using Spark clusters
+
+📄 [Project Report](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Customer%20Churn%20Prediction%20in%20Telecom.pdf)
+
+📓 [Jupyter Notebook](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Customer%20Churn%20Prediction%20(1)%20(1).ipynb)
+
+
 
 
 
