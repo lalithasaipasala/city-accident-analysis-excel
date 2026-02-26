@@ -1,236 +1,121 @@
-# 🚨 City-Wise Accident Analysis (1948–2022)
+# Data Analytics Portfolio
 
-This project explores accident data across multiple cities over 74 years, analyzing patterns using Excel pivot tables and visualizations.
-
----
-
-## 📂 Files Included
-- `accidents_by_city.csv` – Dataset with 88,000 records
-- `accident_dashboard.png` – Excel dashboard preview
+> A collection of interactive dashboards and machine learning projects built with Excel, Power BI, and Python.
 
 ---
 
-## 📥 Dataset
-[View Complete Project](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Ecommerce%20Dashboard.xlsx)
+## Table of Contents
+
+- [City-Wise Accident Analysis](#-city-wise-accident-analysis)
+- [Ecommerce Sales Dashboard](#-ecommerce-sales-dashboard)
+- [Chicago Crime Analysis](#-chicago-crime-analysis)
+- [Electric Vehicle Dashboard](#-electric-vehicle-dashboard)
+- [Customer Churn Prediction](#-customer-churn-prediction)
 
 ---
 
-## 📸 Dashboard Preview
+## 🚨 City-Wise Accident Analysis
 
-![Accident Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Ecommerce%20Dashboard.jpg)
+**Tool:** Microsoft Excel &nbsp;|&nbsp; **Period:** 1948–2022 &nbsp;|&nbsp; **Records:** 88,000+
 
----
+An Excel dashboard exploring accident data across multiple cities over 74 years, built with pivot tables and charts.
 
-## 🛠 Tools Used
-- Microsoft Excel
-- Pivot Tables & Charts
-- Conditional Formatting
+**Features**
+- Filter by city, year, and incident type
+- Analyze accident frequency and severity
+- Visualize trends and high-risk zones
 
----
-
-## 📄 Project Description
-This Excel-based dashboard gives a location-wise view of accidents from 1948 to 2022:
-- Filter by **city**, **year**, and **incident type**
-- Analyze accident **frequency** and **severity**
-- Visualize trends and high-risk areas
-
-✅ Used by data teams and planners to identify accident-prone zones over time
-
-
-
-# 📊 Ecommerce Sales Dashboard (Excel)
-
-This project features an interactive Excel dashboard designed to visualize ecommerce sales performance and KPIs such as total revenue, monthly sales trends, top-performing products, and customer segments.
+**Files**
+- `accidents_by_city.csv` — Source dataset
+- `accident_dashboard.png` — Dashboard preview
 
 ---
 
-## 📂 Files Included
+## 📊 Ecommerce Sales Dashboard
 
-- `ecommerce_sales_data.xlsx` — Cleaned Excel dataset with monthly orders, revenue, product categories, and customer info.
-- `Ecommerce Dashboard.jpg` — Screenshot of the dashboard view created using Excel charts and pivot tables.
+**Tool:** Microsoft Excel &nbsp;|&nbsp; **Focus:** Revenue, Orders, Profit KPIs
 
----
+An interactive Excel dashboard visualizing ecommerce sales performance across regions, categories, and time periods.
 
-## 📸 Dashboard Preview
-
-![Ecommerce Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Ecommerce%20Dashboard.jpg)
-![view Complete Project ](
-
----
-
-## 🧰 Tools Used
-
-- Microsoft Excel (Pivot Tables, Charts, Conditional Formatting)
-- Slicers & Interactive Filters
-- Dashboard Layout Design
-
----
-
-## 📈 Key Features
-
+**Features**
 - Total Revenue, Orders, and Profit KPIs
-- Product Category Performance
-- Region-wise Sales Distribution
-- Monthly Sales Trend with Line Chart
-- Dynamic filters using slicers (Month, Product Type)
+- Product category performance breakdown
+- Region-wise sales distribution
+- Monthly sales trend with line chart
+- Dynamic slicers for Month and Product Type
+
+**Files**
+- `Ecommerce Dashboard.xlsx` — Excel dashboard
+- `Ecommerce Dashboard.jpg` — Dashboard screenshot
+
+![Ecommerce Dashboard](https://raw.githubusercontent.com/lalithasaipasala/city-accident-analysis-excel/main/Ecommerce%20Dashboard.jpg)
 
 ---
 
-## 📌 Skills Demonstrated
+## 🔍 Chicago Crime Analysis
 
-- Excel Dashboard Design
-- Data Cleaning & Aggregation
-- KPI Reporting & Trend Visualization
-- Use of Pivot Tables and Slicers
+**Tool:** Microsoft Excel / Power BI
 
+An interactive dashboard for exploring Chicago crime data — identifying trends, hotspots, and incident patterns over time.
 
-
-
-## 📊 [Chicago Crime Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Chicago%20Crime%20%20Analysis.jpg)
-
-
-## 📈 Outcome
-
-This project demonstrates how Excel can be used to create powerful, interactive dashboards for large-scale data analysis. It's ideal for analysts, students, or professionals looking to visualize crime data trends and explore insights without advanced BI tools.
+![Chicago Crime Analysis](https://raw.githubusercontent.com/lalithasaipasala/city-accident-analysis-excel/main/Chicago%20Crime%20%20Analysis.jpg)
 
 ---
 
-Feel free to explore, replicate, and build upon this dashboard for your own data projects!
+## ⚡ Electric Vehicle Dashboard
 
-🚗 Electric Vehicle Data Analysis – Excel Dashboard
-Analyze over 114,000 electric vehicle records to uncover trends in electric vehicle (EV) adoption, range, and manufacturer distribution across the U.S. This interactive Excel dashboard provides dynamic insights into vehicle types, clean fuel eligibility, and make/model breakdowns using PivotTables, slicers, and visualizations.
+**Tool:** Microsoft Excel &nbsp;|&nbsp; **Records:** 114,595 vehicles
 
-🔗 #View Project[View Project Repository](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.jpg)
-📥 Download Complete Project File [Download Excel Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/commit/db606dc8fea9ac6fe7c08bab4a1743a0753ec8ae)
+An interactive Excel dashboard analyzing EV registrations and trends across the U.S., covering vehicle types, clean fuel eligibility, and manufacturer breakdowns.
 
-🧾 Dashboard Highlights
-Total Vehicles Analyzed: 114,595
+**Key Stats**
 
-BEVs (Battery Electric Vehicles): 87,767 (76.59%)
+| Metric | Value |
+|--------|-------|
+| Total Vehicles | 114,595 |
+| Battery EVs (BEV) | 87,767 (76.59%) |
+| Plug-in Hybrids (PHEV) | 26,828 (23.41%) |
 
-PHEVs (Plug-in Hybrid Electric Vehicles): 26,828 (23.41%)
+**Visuals**
+- Map chart: EV distribution by U.S. state
+- Line graph: Registration trends by model year (1997–2023)
+- Bar charts: Top manufacturers and electric range leaders
+- Pie chart: CAFV eligibility breakdown
+- Slicers: Filter by fuel type, EV type, and model
 
-📊 Key Visuals
-📍 Geographic Distribution: Map showing number of EVs by state
+**Key Insights**
+- Tesla leads with 52,672 registered vehicles
+- EV adoption grew exponentially from 2017, peaking in 2021
+- Tesla, Jaguar, and Chevrolet offer the highest electric range
 
-📈 Model Year Trend: Line chart tracking EV registrations from 1997 to 2023
+**Files**
+- `Electric Vehicle Dashboard.xlsx` — Excel dashboard
+- `Electric Vehicle Dashboard.jpg` — Dashboard screenshot
 
-🔋 Top Electric Ranges: Vehicles with highest average range per charge (TESLA, FIAT, JAGUAR)
-
-✅ CAFV Eligibility: Pie chart showing eligibility for clean fuel incentives
-
-🏷️ Top Makes: TESLA leads with 52,672 vehicles, followed by Nissan, Chevrolet, and Ford
-
-🛠️ Tools Used
-Microsoft Excel
-
-PivotTables & Charts
-
-Slicers for interactivity
-
-Conditional formatting and dashboard layout design
-
-📁 Files Included
-Electric_Vehicle_Dashboard.xlsx – Main Excel dashboard
-
-
-# ⚡ Electric Vehicle Data Analysis (Excel Dashboard)
-
-This project presents an interactive Excel dashboard analyzing Electric Vehicle (EV) registrations and trends across the U.S. It includes vehicle types, eligibility for clean fuel programs, and electric range statistics. The dashboard is designed to provide meaningful insights to policymakers, researchers, and sustainability analysts.
+![Electric Vehicle Dashboard](https://raw.githubusercontent.com/lalithasaipasala/city-accident-analysis-excel/main/Electric%20Vehicle%20Dashboard.jpg)
 
 ---
 
-## 📸 Dashboard Preview
+## 🤖 Customer Churn Prediction
 
-![Electric Vehicle Dashboard](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.jpg)
+**Tool:** Python (Scikit-learn, PySpark) &nbsp;|&nbsp; **Records:** 100,000
 
-#### View Project
-![Electric Vehical Project](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Electric%20Vehicle%20Dashboard.xlsx)
+A binary classification project predicting customer churn in telecom using Random Forest, comparing traditional and distributed ML approaches.
 
----
+**Dataset**
+- 100,000 synthetic telecom customer records
+- 100 features: demographics, usage, billing, contract details
 
-## 📂 Files Included
+**Preprocessing**
+- Median/mode imputation for missing values
+- One-Hot Encoding (Scikit-learn) / StringIndexer & OneHotEncoder (PySpark)
 
-- `ev_data.xlsx` – Source dataset used for visualization and filtering
-- `Electric Vehicle Dashboard.png` – Full screenshot of the interactive Excel dashboard
-- `README.md` – Project documentation
+**Models**
 
----
-
-## 📊 Dashboard Features
-
-- **Total Vehicles Analyzed**: 114,595  
-- **Total BEV Vehicles**: 87,767 (76.59%)  
-- **Total PHEV Vehicles**: 26,828 (23.41%)
-
-### 📈 Visual Insights
-- **Map Chart**: Distribution of vehicles by U.S. state
-- **Line Graph**: Registration trends by model year (1997–2023)
-- **Bar Charts**:
-  - Top 10 vehicle manufacturers by volume (Tesla, Nissan, Chevrolet, etc.)
-  - Electric range by make (Tesla, Jaguar, Chevrolet, etc.)
-- **Pie Chart**: CAFV (Clean Alternative Fuel Vehicle) eligibility
-- **Slicers**: Filter by fuel eligibility, EV type, and model
-
----
-
-## 🧰 Tools Used
-
-- Microsoft Excel
-- Pivot Tables & Pivot Charts
-- Geo Map Chart
-- Data Slicers & Timelines
-- Conditional Formatting
-
----
-
-## 📌 Key Insights
-
-- Tesla is the most popular EV make with over 52,000 vehicles registered.
-- EV adoption has seen exponential growth since 2017, peaking in 2021.
-- Over half of the vehicles are eligible for clean fuel incentives.
-- Tesla, Jaguar, and Chevrolet offer the highest electric range on a full charge.
-
----
-
-## 🧠 Skills Demonstrated
-
-- Excel dashboard design & layout
-- Geographic data mapping
-- KPI tracking & trend analysis
-- Visual storytelling with data
-
----
-
-
-
-# 📊 Customer Churn Prediction in Telecom
-
-This project applies **binary classification** using the **Random Forest algorithm** to predict customer churn in the telecom industry. It compares traditional **Scikit-learn** and distributed **PySpark MLlib** implementations for model performance and scalability.
-
----
-
-## 📌 Dataset
-
-- **Source:** Synthetic telecom customer dataset
-- **Records:** 100,000
-- **Features:** 100 (demographics, service usage, billing, contract details, etc.)
-
----
-
-## ⚙️ Preprocessing
-
-- Handled missing values using median and mode.
-- Dropped irrelevant columns (IDs, unnamed columns).
-- Categorical encoding using:
-  - One-Hot Encoding (Scikit-learn)
-  - StringIndexer & OneHotEncoder (PySpark)
-
----
-
-## 🚀 Models Used
-
-### 1. **Scikit-learn Random Forest (non-distributed)**
+| Model | Accuracy |
+|-------|----------|
+| Scikit-learn Random Forest | 58.81% |
+| PySpark MLlib Random Forest | Scalable (distributed) |
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
@@ -240,25 +125,21 @@ from sklearn.metrics import accuracy_score
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 model = RandomForestClassifier(n_estimators=100)
 model.fit(X_train, y_train)
-y_pred = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, model.predict(X_test)))
+```
 
-print("Accuracy:", accuracy_score(y_test, y_pred))
+**Files**
+- [`Customer Churn Prediction (1) (1).ipynb`](./Customer%20Churn%20Prediction%20(1)%20(1).ipynb) — Jupyter notebook
+- [`Customer Churn Prediction in Telecom.pdf`](./Customer%20Churn%20Prediction%20in%20Telecom.pdf) — Project report
 
-✅ Accuracy: 0.5881
+---
 
-🔄 Scalable for large datasets using Spark clusters
+## 🛠 Tools & Skills
 
-📄 [Project Report](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Customer%20Churn%20Prediction%20in%20Telecom.pdf)
-
-📓 [Jupyter Notebook](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Customer%20Churn%20Prediction%20(1)%20(1).ipynb)
-
-
-
-
-
-
-
-
-
-
-
+| Category | Tools |
+|----------|-------|
+| Spreadsheets | Microsoft Excel, Pivot Tables, Charts, Slicers |
+| Business Intelligence | Power BI |
+| Programming | Python, PySpark |
+| ML Libraries | Scikit-learn, MLlib |
+| Techniques | Dashboard Design, KPI Reporting, Classification, Data Cleaning |
